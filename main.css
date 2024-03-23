@@ -1,0 +1,193 @@
+
+*{
+    margin: 0px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header-ctn{
+    display: flex;
+    padding: 10px 40px 0 40px;
+    width: 1200px;
+    border-radius: 0 0 8px 8px;
+    justify-content: space-between;
+}
+.active {
+    box-shadow: 0px 0px 10px 4px #00000030;
+    animation-name: change-col;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes change-col {
+    from{background-color: #ffffff00;padding-top: 10px;}
+    to{background-color: #ffffff;padding-top: 12px;}
+}
+.logo-ctn{
+    margin: 0;
+}
+.logo{
+    font-size: 40px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    /* font-family: 'VT323', monospace; */
+    font-family: Impact, sans-serif;
+    /* animation: change-col-logo 4s;
+    animation-fill-mode: forwards; */
+}
+/* @keyframes change-col-logo {
+    from{color: #fff;}
+    to{color: #000;}
+} */
+.menu-ctn{
+    width: 60%;
+    margin: 0;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center ;
+    height: 40px;
+    justify-content: end;
+}
+.menu-ctn a{
+    margin: 0;
+    font-weight: 100;
+    font-stretch: extra-expanded;
+    font-size: 20px;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu-ctn button{
+    margin: 0;
+    font-weight: lighter;
+    /* font-stretch: extra-expanded; */
+    font-size: 20px;
+    margin: 0px 10px;
+    padding: 0 20px;
+    text-decoration: none;
+    font-family: Impact,'lighter' sans-serif;
+}
+.btn{
+    height: 40px;
+    padding: 0 10px;
+    font-size: 18px !important;
+    background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%);
+    background: #f7a708c5;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn:hover{
+    border: 2px solid #000;
+    background: #f7a708da;
+    background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%);
+}
+.social{
+    background-color: #000;
+    border-radius: 50px;
+    color: white;
+}
+
+
+/* Section: Intro */
+.body{
+    background: #00000010;
+    position: relative;
+    margin-top: -60px;
+    padding-top: -20px;
+    height: 80vh;
+    z-index: 99;
+    box-shadow: 0px 0px 50px 5px #00000030;
+    border-radius: 0 0 25px 25px;
+}
+.intro{
+    /* background: linear-gradient(90deg, rgba(218,112,112,1) 0%, rgba(214,162,83,1) 20%, rgba(72,159,179,1) 40%, rgba(60,192,184,1) 60%, rgba(149,190,116,1) 80%, rgba(143,208,102,1) 100%); */
+    height: 80vh;
+    background-color: #FBAB7E;
+    background: scroll;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%);
+    border-radius: 0 0 25px 25px;
+}
+.intro-ctn{
+    width: 1200px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro-left{
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    /* border: 2px solid red; */
+}
+.intro-left div{
+    margin: 25px 0;
+}
+.intro-left div h1{
+    font-size: 40px;
+    color: #181818;
+}
+.intro-left div h1 span{
+    font-size: 40px;
+    color: red;
+}
+.intro-left div p{
+    font-size: 30px;
+}
+.intro-right{
+    margin: 0;
+}
+.img-mine{
+    height: 450px;
+    width: 350px;
+    background: url('main-img.jpg') no-repeat ;
+    background-size: cover;
+}
+#Project .project-heading{
+    margin: 0 auto;
+    padding-top: 40px;
+    width: fit-content;
+    /* background-color: #fff; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+#Project{
+    background-color: #00000005;
+}
+.pro-ctn{
+    width: 1200px;
+    height: 80vh;
+    z-index: 98;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.pro-ctn-1,.pro-ctn-2,.pro-ctn-3{
+    width: 29%;
+    border-radius: 20px;
+    height: 300px;
+    border: 1px solid #00000020;
+    padding: 15px;
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px 5px #00000010;
+}
+.pro-ctn-1{
+    background-color: #fff;
+}
+.PRO-ITEM-H{
+    align-self: CENTER;
+}
+.line{
+    width: 50%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: #000;
+}

@@ -1,0 +1,102 @@
+.project{
+    background-color: #00000005;
+    height: fit-content;
+    padding: 4% 0;
+}
+.project-ctn{
+    flex-direction: column;
+    justify-content: center;
+}
+#prj-ctn{
+    width: 48%;
+    height: 475px;
+}
+.pro-item-ctn {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: 225px;
+    padding: 0;
+    cursor: pointer;
+    .animated-mail {
+        position: absolute;
+        height: 200px;
+        width: 100%;
+        transition: all .4s ease-in-out;
+        .letter {
+            top: -175px;
+            position: absolute;
+            width: 100%;
+            height: 200px;
+            z-index: 1;
+            overflow: hidden;
+            transition: all .4s .2s;
+            box-shadow: 0px 0px 10px 5px #00000010;
+            .letter-img{
+                width: 100%;
+            }
+        }
+        .body {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 200px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px 5px #00000010;
+            padding: 15px;
+            border-radius: 0 0 10px 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            z-index: 2;
+            .pro-ctn-head{
+                align-items: flex-start;
+                width: 100%;
+                #underline{
+                    align-self: flex-start; 
+                    width: 10%;
+                    transition: all .4s ease-in-out;
+                }
+            }
+            .view-msg{
+                display: flex;
+                flex-direction: row;
+                height: 20px;
+                align-items: center;
+                .view-msg-p{
+                    padding-right: 5px;
+                    transition: all .4s ease-in-out;
+                }
+                .right-arrow, .right-arrow-img{
+                    height: 15px;
+                }
+            }
+        }
+        
+        
+    }
+}
+.pro-item-ctn:hover {
+    .animated-mail {
+        transform: translateY(25px);
+        -webkit-transform: translateY(25px);
+        -moz-transform: translateY(25px);
+        .letter {
+            height: 275px;
+            top: -250px;
+        }
+        .body{
+            .pro-ctn-head{
+                #underline{
+                    width: 30%;
+                }
+            }
+            .view-msg{
+                .view-msg-p{
+                    padding-right: 10px;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

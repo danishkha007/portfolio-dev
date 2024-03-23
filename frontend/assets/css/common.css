@@ -1,0 +1,136 @@
+/* Mobiles */
+@media (max-width:899px){
+    .container{
+        height: 90vh;
+        background: scroll;
+        border-radius: 0 0 25px 25px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        z-index: 99;
+    }
+    .inner-ctn{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .heading{
+        width: fit-content;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .h2{
+        font-size: 30px;
+    }
+    .h3{
+        font-size: 24px;
+    }
+    #underline{
+        width: 50%;
+        height: 4px;
+        border-radius: 50px;
+        background-color: #000;
+    }
+    .carasoul{
+        width: 100%;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+/*  */
+@media (min-width:900px) and (max-width:1299px){
+    .container{
+        height: 90vh;
+        background: scroll;
+        border-radius: 0 0 25px 25px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        z-index: 99;
+    }
+    .inner-ctn{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .heading{
+        width: fit-content;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .h2{
+        font-size: 38px;
+    }
+    .h3{
+        font-size: 33px;
+    }
+    #underline{
+        width: 50%;
+        height: 4px;
+        border-radius: 50px;
+        background-color: #000;
+    }
+    .carasoul{
+        width: 95%;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:1300px){
+    .container{
+        height: 90vh;
+        background: scroll;
+        border-radius: 0 0 25px 25px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        z-index: 99;
+    }
+    .inner-ctn{
+        width: 1200px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .heading{
+        width: fit-content;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .h2{
+        font-size: 40px;
+    }
+    .h3{
+        font-size: 35px;
+    }
+    #underline{
+        width: 50%;
+        height: 4px;
+        border-radius: 50px;
+        background-color: #000;
+    }
+    .carasoul{
+        width: 1200px;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
